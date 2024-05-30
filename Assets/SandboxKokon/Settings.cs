@@ -8,6 +8,7 @@ public class Settings : MonoBehaviour
     [SerializeField] private GameObject _vignette;
     [SerializeField] private GameObject _uiPanel;
     [SerializeField] private Material _handsMaterial;
+    [SerializeField] private GameObject _playerCamera;
     private float previousTriggerValue = 0;
 
     public void Update()
@@ -16,9 +17,13 @@ public class Settings : MonoBehaviour
         
         if (triggerValue == 1 && previousTriggerValue == 0)
         {
-            _uiPanel.SetActive(!_uiPanel.activeSelf);  
+            _uiPanel.SetActive(!_uiPanel.activeSelf);
+            var position = _playerCamera.transform.position + (2 * _playerCamera.transform.forward);
+            transform.position = new Vector3(position.x, _playerCamera.transform.position.y, position.z);
+            //transform.rotation = Quaternion.Euler(_playerCamera.transform.rotation.x, _playerCamera.transform.rotation.y,0);
+            transform.LookAt(_playerCamera.transform.position);
+            transform.Rotate(0,180,0);
         }
-        print(triggerValue.ToString());
 
         previousTriggerValue = triggerValue;
     }

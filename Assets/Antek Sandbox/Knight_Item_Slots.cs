@@ -2,42 +2,69 @@ using System;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class Knight_Item_Slots : MonoBehaviour
 {
-    public bool isGrabbed;
+    [SerializeField] private Material _material;
 
+    private XRGrabInteractable _xRGrabInteractable;
+    private Outline _outline;
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawSphere(this.transform.position,0.5f);
-    }
+    private GameObject _item;
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Item")
+        if (other.tag != "Item") return;
+        if (other.gameObject != _item) return;
+
+        if (_xRGrabInteractable.isSelected)
         {
-            switch (isGrabbed)
-            {
-                case true:
-                    other.transform.SetParent(null);
-                    other.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
-                    break;
-                case false:
-                    other.transform.SetParent(this.transform);
-                    other.transform.position = Vector3.zero;
-                    other.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineHidden;
-                    break;
-            }
+            other.transform.SetParent(null);
+            _outline.OutlineMode = Outline.Mode.OutlineAll;
+        }
+        else
+        {
+            other.transform.SetParent(this.transform);
+            other.transform.localPosition = Vector3.zero;
+            other.transform.localRotation = Quaternion.identity;
+            _outline.OutlineMode = Outline.Mode.OutlineHidden;
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        other.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
+        if (other.tag != "Item") return;
+        if (_item != null) return;
+        _item = other.gameObject;
+        _outline = other.GetComponent<Outline>();
+        _xRGrabInteractable = other.GetComponent<XRGrabInteractable>();
+        _outline.OutlineMode = Outline.Mode.OutlineAll;
     }
+
     private void OnTriggerExit(Collider other)
     {
-        other.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineHidden;
+        if (other.tag != "Item") return;
+        if (other.gameObject != _item) return;
+        _item = null;
+        _outline.OutlineMode = Outline.Mode.OutlineHidden;
     }
+
+    #region Gizmo
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(this.transform.position, 0.05f);
+    }
+
+    private void Awake()
+    {
+        var go = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        go.transform.parent = this.transform;
+        go.GetComponent<Renderer>().material = _material;
+        go.transform.position = this.transform.position;
+        go.GetComponent<Collider>().enabled = false;
+        go.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+    }
+    #endregion
 }
