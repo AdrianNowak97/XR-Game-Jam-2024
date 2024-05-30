@@ -200,7 +200,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 275, y: -225}
-  m_SizeDelta: {x: 400, y: 420}
+  m_SizeDelta: {x: 420, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7652465212244300943
 Canvas:
@@ -1655,7 +1655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.496, y: 1.136}
+  m_AnchoredPosition: {x: -2.4960022, y: 1.1360016}
   m_SizeDelta: {x: 550, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &90574328749491211
@@ -1752,7 +1752,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45bc3b76e6b79e49a2be187e16e9161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MenuSwitch:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Menu Switch
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a2d883ec-1372-4257-87cc-5197a123f76d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  _vignette: {fileID: 0}
   _uiPanel: {fileID: 1073038995801268401}
+  _handsMaterial: {fileID: 0}
 --- !u!1 &8530827484237556754
 GameObject:
   m_ObjectHideFlags: 0
