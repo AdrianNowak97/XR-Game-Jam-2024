@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6beb8fffd8449374b81cf9857e315469
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/Scripts/EasyColliderProperties.cs
+  uploadId: 659796

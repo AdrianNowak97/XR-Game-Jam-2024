@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fbd80c39db074c64a89a5e820a12b2f8
+timeCreated: 1596043080
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/ThirdPartyNotices.txt
+  uploadId: 659796
