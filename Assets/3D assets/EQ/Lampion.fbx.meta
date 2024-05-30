@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 1c53a4feaa7b33f44915a19b89ad843c
+guid: 12b3518eac6af7c48b4a2d4bd7077e9b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Flatkit Main Material
-    second: {fileID: 2100000, guid: 18d165fab1a221b4e958541e2cc0d36a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
