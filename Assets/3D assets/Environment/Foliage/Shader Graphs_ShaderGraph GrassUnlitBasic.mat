@@ -52,8 +52,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blend: 1
-    - _BlendMult: 0.64
-    - _BlendOff: 0.35
+    - _BlendMult: 0.91
+    - _BlendOff: 0.11
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
