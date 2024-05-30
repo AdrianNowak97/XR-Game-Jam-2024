@@ -151,9 +151,7 @@ MonoBehaviour:
   - {fileID: 2036911336}
   enemyList:
   - {fileID: 11400000, guid: 14f0911701bc560409a2904feddf143e, type: 2}
-  allMagicDMG: 0
-  allMeeleDMG: 0
-  allRangeDMG: 0
+  acctualEnemy: {fileID: 0}
 --- !u!4 &49186177
 Transform:
   m_ObjectHideFlags: 0
@@ -226,6 +224,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30c9a62c7d107f409e29ab0857db5b5, type: 3}
+--- !u!1001 &342750815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9137825
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.376
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5629826
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 762818548030011418, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8431375436708571509, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
+      propertyPath: m_Name
+      value: Sword
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 067325beea4cfe04c8d44a2d51561d41, type: 3}
 --- !u!1 &544409108
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,7 +864,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -855,3 +910,4 @@ SceneRoots:
   - {fileID: 2036911339}
   - {fileID: 544409112}
   - {fileID: 49186177}
+  - {fileID: 342750815}
