@@ -21,11 +21,11 @@ MonoBehaviour:
   - 1
   - 1
   - 1
-  layerFading: 0100000000000000
+  layerFading: "\x01"
   VertexColorSettings: 0
   VertexFade: 0
-  sizeWidth: 0.082
-  sizeLength: 0.538
+  sizeWidth: 0.062
+  sizeLength: 0.492
   adjustWidth: 0
   adjustLength: 0
   adjustWidthMax: 2
@@ -34,17 +34,18 @@ MonoBehaviour:
   rangeR: 0.122
   rangeG: 0.118
   rangeB: 0.121
-  AdjustedColor: {r: 1, g: 0.970882, b: 0.9669811, a: 1}
+  AdjustedColor:
+    r: 1
+    g: 0.970882
+    b: 0.9669811
+    a: 1
   paintBlockMask:
-    serializedVersion: 2
     m_Bits: 0
   hitMask:
-    serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 55
   paintMask:
-    serializedVersion: 2
-    m_Bits: 0
-  brushSize: 2.6
+    m_Bits: 55
+  brushSize: 5.2
   brushFalloffSize: 0.8
   Flow: 0.1
   density: 1

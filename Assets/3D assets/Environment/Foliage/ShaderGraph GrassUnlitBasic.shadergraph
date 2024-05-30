@@ -592,7 +592,6 @@
     "m_OutputNode": {
         "m_Id": ""
     },
-    "m_SubDatas": [],
     "m_ActiveTargets": [
         {
             "m_Id": "ab1abb471bb94af38546e54a602a2ae2"
@@ -910,7 +909,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "GetComputeData",
-    "m_FunctionSource": "54984b7c61b94ab44bae03cd080ba4c8",
+    "m_FunctionSource": "985ec6fff69caf74693e2aa37c384999",
     "m_FunctionBody": "Enter function body here..."
 }
 
@@ -2587,9 +2586,6 @@
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
-    "m_DisableTint": false,
-    "m_AdditionalMotionVectorMode": 0,
-    "m_AlembicMotionVectors": false,
     "m_SupportsLODCrossFade": false,
     "m_CustomEditorGUI": "",
     "m_SupportVFX": false
@@ -2821,7 +2817,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "GetWorldUV",
-    "m_FunctionSource": "54984b7c61b94ab44bae03cd080ba4c8",
+    "m_FunctionSource": "985ec6fff69caf74693e2aa37c384999",
     "m_FunctionBody": "Enter function body here..."
 }
 
