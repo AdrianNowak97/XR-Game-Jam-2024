@@ -2,11 +2,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class SO_Enemy : ScriptableObject
 {
-    [Header("Enemy DMG")]
-    public int enemyMagicDMG;
-    public int enemyMeleeDMG;
-    public int enemyRangeDMG;
-
+    public int pointsNeeded;
+    
     public Race _race;
     public Class _class;
     
@@ -17,8 +14,8 @@ public class SO_Enemy : ScriptableObject
         Goblin,
         Halfling,
         Human,
-        Elf,
         Orc,
+        Elf,
         Troll,
         Demon,
         Roxy
