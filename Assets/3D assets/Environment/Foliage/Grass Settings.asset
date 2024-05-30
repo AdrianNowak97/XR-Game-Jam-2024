@@ -24,8 +24,8 @@ MonoBehaviour:
   MinHeight: 0.01
   MaxWidth: 1
   MaxHeight: 1
-  windSpeed: 2.52
-  windStrength: 0.08
+  windSpeed: 1.59
+  windStrength: 0.035
   allowedBladesPerVertex: 4
   allowedSegmentsPerBlade: 4
   affectStrength: 1
