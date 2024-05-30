@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 709036c53be610c4dad720e5b584cf2d
+=======
+guid: 51350e5ada9bc8b41896062ea3266b95
+>>>>>>> origin/KosmoBranch
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
