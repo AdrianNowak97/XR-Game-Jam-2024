@@ -10,7 +10,7 @@ public class Stats_Count_At_End : MonoBehaviour
     [SerializeField] private GameObject weaponSlot;
     private List<ItemStats.Item> itemsList = new List<ItemStats.Item>();
     [SerializeField] private List<SO_Enemy> enemyList = new List<SO_Enemy>();
-    [SerializeField] private SO_Enemy acctualEnemy;
+    private SO_Enemy acctualEnemy;
 
     private float pointsGained;
     private ItemStats itemsStats;
