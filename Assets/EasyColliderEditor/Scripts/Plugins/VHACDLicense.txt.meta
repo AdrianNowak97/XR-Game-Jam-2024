@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0a79fff97a7a7294b835aea10e1cb6cf
+timeCreated: 1596043168
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/Scripts/Plugins/VHACDLicense.txt
+  uploadId: 659796

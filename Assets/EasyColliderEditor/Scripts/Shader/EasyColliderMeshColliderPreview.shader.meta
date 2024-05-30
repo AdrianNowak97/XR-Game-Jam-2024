@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fc68b98d1257f434680734c4924323ef
+timeCreated: 1600087651
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/Scripts/Shader/EasyColliderMeshColliderPreview.shader
+  uploadId: 659796
