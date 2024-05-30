@@ -44,6 +44,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Game Settings v2
       objectReference: {fileID: 0}
+    - target: {fileID: 4627388378009319892, guid: cc5c5fcf8cf634e47a929a26ced91bfd, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 8901127600655608211, guid: cc5c5fcf8cf634e47a929a26ced91bfd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
