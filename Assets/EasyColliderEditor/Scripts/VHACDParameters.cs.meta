@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 77dedb303367131439faaeb70ed23f25
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/Scripts/VHACDParameters.cs
+  uploadId: 659796

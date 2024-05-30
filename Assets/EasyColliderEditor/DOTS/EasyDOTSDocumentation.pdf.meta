@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 078b33d3bbdbd3f478bca270510b58aa
+timeCreated: 1626290549
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/DOTS/EasyDOTSDocumentation.pdf
+  uploadId: 659796

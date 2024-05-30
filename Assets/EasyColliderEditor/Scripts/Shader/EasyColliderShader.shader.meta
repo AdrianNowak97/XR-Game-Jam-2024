@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 47ca8cc19e520064baecb98dc4e2eb9e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67880
+  packageName: Easy Collider Editor
+  packageVersion: 6.15.0
+  assetPath: Assets/EasyColliderEditor/Scripts/Shader/EasyColliderShader.shader
+  uploadId: 659796
