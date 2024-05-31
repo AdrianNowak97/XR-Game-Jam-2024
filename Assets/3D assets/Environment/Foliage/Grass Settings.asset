@@ -30,7 +30,7 @@ MonoBehaviour:
   allowedSegmentsPerBlade: 3
   affectStrength: 1
   topTint: {r: 1, g: 0.71341807, b: 0, a: 1}
-  bottomTint: {r: 1, g: 0.24449503, b: 0, a: 1}
+  bottomTint: {r: 1, g: 0.40157402, b: 0, a: 1}
   drawBounds: 0
   minFadeDistance: 40
   maxDrawDistance: 125
