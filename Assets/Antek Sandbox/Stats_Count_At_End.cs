@@ -48,7 +48,7 @@ public class Stats_Count_At_End : MonoBehaviour
                 acctualEnemy = bossEnemyList[Random.Range(0, bossEnemyList.Count)];
                 break;
         }
-
+        WinningConditionEventSystem.EnemyText(acctualEnemy.enemyInfo);
         stage++;
     }
 

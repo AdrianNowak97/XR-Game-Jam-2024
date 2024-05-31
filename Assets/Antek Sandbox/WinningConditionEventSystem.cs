@@ -22,4 +22,14 @@ public class WinningConditionEventSystem : MonoBehaviour
          OnNewItemGet?.Invoke(newItem);
       }
    }
+
+   public static event Action<string> OnEnemyText;
+   
+   public static void EnemyText(string text)
+   {
+      if (OnEnemyText != null)
+      {
+         OnEnemyText?.Invoke(text);
+      }
+   }
 }
