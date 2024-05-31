@@ -12,6 +12,12 @@ public class Knight_Item_Slots : MonoBehaviour
     private XRGrabInteractable _xRGrabInteractable;
     private Outline _outline;
 
+    //Sound Scripts
+    private bool isItemInSlot = false;
+    [SerializeField] private SoundFXManager _soundFXManager;
+    [SerializeField] private AudioClip _audioClip;
+    //End Sound Scripts
+    
     private GameObject _item;
 
     [SerializeField] private bool isWeaponSlot;
@@ -55,6 +61,7 @@ public class Knight_Item_Slots : MonoBehaviour
         {
             other.transform.SetParent(null);
             _outline.OutlineMode = Outline.Mode.OutlineAll;
+            isItemInSlot = false;
         }
         else
         {
