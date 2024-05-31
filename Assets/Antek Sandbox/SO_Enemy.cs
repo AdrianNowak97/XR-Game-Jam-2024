@@ -6,6 +6,8 @@ public class SO_Enemy : ScriptableObject
     
     public Race _race;
     public Class _class;
+
+    public string enemyInfo;
     
      public enum Race
     {
