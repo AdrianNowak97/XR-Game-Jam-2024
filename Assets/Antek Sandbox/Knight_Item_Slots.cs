@@ -110,7 +110,8 @@ public class Knight_Item_Slots : MonoBehaviour
     #region Gizmo
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
+        if(isWeaponSlot) Gizmos.color = Color.red;
+        else Gizmos.color = Color.green;
         Gizmos.DrawSphere(this.transform.position, 0.05f);
     }
 
