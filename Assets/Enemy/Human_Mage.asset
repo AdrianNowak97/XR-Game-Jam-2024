@@ -15,5 +15,6 @@ MonoBehaviour:
   pointsNeeded: 50
   _race: 4
   _class: 2
-  enemyInfo: Some old guy with a white bathrobe tell's me I shall not pass this bridge.
-    Maybe I could just pay him for the passage if I have money with me.
+  enemyInfo: Human Mage  Some old guy with a white bathrobe tell's me I shall not
+    pass this bridge. Maybe I could just pay him for the passage if I have money
+    with me.
