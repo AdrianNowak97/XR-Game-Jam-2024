@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184ead0d-f4c6-4047-accb-c11b749a616e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Antek Sandbox/Stats_Count_At_End.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Antek Sandbox/Stats_Count_At_End.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleNaturePack/SimpleNaturePack_2020.3_HDRP_v1.24.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimpleNaturePack/SimpleNaturePack_2020.3_URP_v1.24.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SandboxKokon/AfterBattleScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SandboxKokon/AfterBattleScreenManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" afterDir="false" />
     </list>
