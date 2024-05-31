@@ -16,13 +16,18 @@ public class Stats_Count_At_End : MonoBehaviour
     private ItemStats itemsStats;
 
     public int howManyStarts;
-    
-    void RollRandomEnemy()
+
+    private void Awake()
+    {
+        RollRandomEnemy();
+    }
+
+    public void RollRandomEnemy()
     {
         acctualEnemy = enemyList[Random.Range(0, enemyList.Count)];
     }
 
-    void OnHorseSlap()
+    public void OnHorseSlap()
     {
         itemsStats = weaponSlot.GetComponentInChildren<ItemStats>();
         
@@ -217,6 +222,8 @@ public class Stats_Count_At_End : MonoBehaviour
         }
 
         WinningConditionEventSystem.current.KnightComeBack(howManyStarts);
+
+        RollRandomEnemy();
     }
 
     private void ElfStatCheck()
