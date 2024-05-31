@@ -74,11 +74,13 @@ public class CameraFade : MonoBehaviour
     
     public void AnimationStart()
     {
+        print("Start Fade");
         animationStart = true;
     }
 
     public void AnimationEnd()
     {
+        print("End Fade");
         _afterBattleScreenManager.SpawnScreen();
         gameObject.GetComponent<Animator>().Play("Idle Camera");
         animationStart = false;

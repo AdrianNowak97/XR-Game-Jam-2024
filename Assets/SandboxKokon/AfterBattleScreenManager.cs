@@ -7,6 +7,7 @@ public class AfterBattleScreenManager : MonoBehaviour
     
     public void SpawnScreen()
     {
+        print("spawn End Screen");
         _uiPanel.SetActive(!_uiPanel.activeSelf);
         var position = _playerCamera.transform.position + (2 * _playerCamera.transform.forward);
         transform.position = new Vector3(position.x, _playerCamera.transform.position.y, position.z);
