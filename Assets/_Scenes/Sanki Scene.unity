@@ -700,6 +700,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
       propertyPath: m_Name
       value: Tree_02(Polybrush Clone)
@@ -1024,6 +1028,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
       propertyPath: m_Name
       value: Tree_02(Polybrush Clone)
@@ -1263,6 +1271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 31401dc4d993aec4bb01021ddae2f5c0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 31401dc4d993aec4bb01021ddae2f5c0, type: 3}
       propertyPath: m_Name
       value: Tree_05(Polybrush Clone)
@@ -1337,6 +1349,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 31401dc4d993aec4bb01021ddae2f5c0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 31401dc4d993aec4bb01021ddae2f5c0, type: 3}
       propertyPath: m_Name
       value: Tree_05(Polybrush Clone)
@@ -1416,6 +1432,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
       propertyPath: m_Name
       value: Tree_02(Polybrush Clone)
@@ -1703,6 +1723,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
       propertyPath: m_Name
       value: Tree_02(Polybrush Clone)
@@ -1777,6 +1801,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4b6e8052ddaab24db2a5d99496f3830, type: 2}
     - target: {fileID: 919132149155446097, guid: 42bfd8f0be7f48c4ebf65a0ff01c5ca9, type: 3}
       propertyPath: m_Name
       value: Tree_02(Polybrush Clone)
@@ -2003,34 +2031,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 764082380987451836, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 776377436966242822, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2692850093091183547, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
       propertyPath: m_Name
       value: Static Scene Prefab 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3218128635617223512, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300298426628222883, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4411796608066803274, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1228163133}
-    - target: {fileID: 5270731527779774567, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7771942644143028638, guid: 8a4860d277cc7db408e81c28742fb723, type: 3}
       propertyPath: m_PolyMesh.m_Mesh
       value: 
