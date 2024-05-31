@@ -15,11 +15,31 @@ public class AfterBattleScreenManager : MonoBehaviour
 
         if (_statsCountAtEnd.howManyStarts == 0)
         {
-            endText.text = "DEFEAT";
+            endText.text = "Defeat...";
+            medals[0].SetActive(false);
+            medals[1].SetActive(false);
+            medals[2].SetActive(false);
         }
-        else
+        else if (_statsCountAtEnd.howManyStarts == 1)
         {
-            endText.text = "WIN!";
+            endText.text = "It's Ok!";
+            medals[0].SetActive(true);
+            medals[1].SetActive(false);
+            medals[2].SetActive(false);
+        }
+        else if (_statsCountAtEnd.howManyStarts == 2)
+        {
+            endText.text = "You Did It!";
+            medals[0].SetActive(true);
+            medals[1].SetActive(true);
+            medals[2].SetActive(false);
+        }
+        else if (_statsCountAtEnd.howManyStarts == 3)
+        {
+            endText.text = "Flawless Victory!";
+            medals[0].SetActive(true);
+            medals[1].SetActive(true);
+            medals[2].SetActive(true);
         }
         
         _uiPanel.SetActive(!_uiPanel.activeSelf);
