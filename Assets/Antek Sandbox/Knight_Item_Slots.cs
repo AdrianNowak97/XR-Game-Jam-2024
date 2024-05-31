@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Unity.VisualScripting;
+using Unity.XR.CoreUtils;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
@@ -78,6 +79,12 @@ public class Knight_Item_Slots : MonoBehaviour
                 other.transform.localPosition = Vector3.zero;
                 other.transform.localRotation = Quaternion.identity;
                 _outline.OutlineMode = Outline.Mode.OutlineHidden;
+            }
+
+            if (isItemInSlot == false)
+            {
+                _soundFXManager.SimpleFXClipPlay(_audioClip);
+                isItemInSlot = true;
             }
         }
     }
