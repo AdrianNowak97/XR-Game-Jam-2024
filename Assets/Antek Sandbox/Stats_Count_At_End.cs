@@ -21,6 +21,8 @@ public class Stats_Count_At_End : MonoBehaviour
 
     private float pointsGained;
     private ItemStats itemsStats;
+
+    [SerializeField] private Animator animator;
     
     //ENEMY TEXT
     [SerializeField] private Text enemyText;
@@ -30,6 +32,21 @@ public class Stats_Count_At_End : MonoBehaviour
     private void Awake()
     {
         RollRandomEnemy();
+    }
+
+    private void OnEnable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack += BackHorse;
+    }
+
+    private void OnDisable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack -= BackHorse;
+    }
+
+    private void BackHorse(int cos)
+    {
+        animator.Play("Knight Coming In");
     }
 
     public void RollRandomEnemy()
@@ -256,6 +273,7 @@ public class Stats_Count_At_End : MonoBehaviour
             howManyStarts = 0;
         }
 
+        animator.Play("Knight Going Away");
 
         RollRandomEnemy();
     }
