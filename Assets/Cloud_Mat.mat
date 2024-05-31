@@ -123,7 +123,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Cloud_Color: {r: 138.80582, g: 138.80582, b: 138.80582, a: 1}
+    - _Cloud_Color: {r: 185.31667, g: 14.860301, b: 14.860301, a: 1}
     - _Cloud_Speed: {r: 0.02, g: 0.005, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DistortSpeed: {r: 0.0015, g: 0.0005, b: 0, a: 0}
