@@ -5861,19 +5861,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.011999965
+      value: -26.2106
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.71905917
+      value: -22.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2779999
+      value: -63.82791
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.024170576
+      value: -0.7283866
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5881,7 +5881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9997079
+      value: 0.6851664
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5893,12 +5893,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 177.23
+      value: 273.503
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8407813491136956108, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 18d165fab1a221b4e958541e2cc0d36a, type: 2}
+    - target: {fileID: -4747473230015404862, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.80774
+      objectReference: {fileID: 0}
+    - target: {fileID: -4747473230015404862, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7608
+      objectReference: {fileID: 0}
+    - target: {fileID: -678588488315902003, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 18d165fab1a221b4e958541e2cc0d36a, type: 2}
     - target: {fileID: 919132149155446097, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
       propertyPath: m_Name
       value: Knight_with_Horse
@@ -5906,8 +5922,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2314650188302267844}
   m_SourcePrefab: {fileID: 100100000, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+--- !u!1 &8597246059421296017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
+  m_PrefabInstance: {fileID: 8903304667180816576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2314650188302267844
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597246059421296017}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f4730d6a30c89f49a3fb2d465239e7e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8936369889025638187 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 642a569dc2fd8a84792ff88d05ebeb0b, type: 3}
