@@ -73,7 +73,7 @@ public class Knight_Item_Slots : MonoBehaviour
                 other.transform.localRotation = Quaternion.identity;
                 _outline.OutlineMode = Outline.Mode.OutlineHidden;
             }
-            else
+            else if (_item.GetComponent<ItemStats>()._itemClass == ItemStats.ItemClass.Nothing)
             {
                 other.transform.SetParent(this.transform);
                 other.transform.localPosition = Vector3.zero;
