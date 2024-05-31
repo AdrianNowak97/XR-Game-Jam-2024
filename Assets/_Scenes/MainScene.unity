@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 524812296216946600, guid: fa711159e551b984cad6f4e400da6160, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 843919755142357289, guid: fa711159e551b984cad6f4e400da6160, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.222
@@ -350,10 +354,18 @@ PrefabInstance:
       propertyPath: enemyText
       value: 
       objectReference: {fileID: 4913695815362280336}
+    - target: {fileID: 4551743478109365125, guid: fa711159e551b984cad6f4e400da6160, type: 3}
+      propertyPath: weaponSlot
+      value: 
+      objectReference: {fileID: 1112487877}
     - target: {fileID: 4697245711656168376, guid: fa711159e551b984cad6f4e400da6160, type: 3}
       propertyPath: _audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b4900d72ab544944483d37c72b6083f3, type: 3}
+    - target: {fileID: 4697245711656168376, guid: fa711159e551b984cad6f4e400da6160, type: 3}
+      propertyPath: isWeaponSlot
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4697245711656168376, guid: fa711159e551b984cad6f4e400da6160, type: 3}
       propertyPath: _soundFXManager
       value: 
@@ -390,6 +402,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5ef17eb6dc0524bb990b9f8794b307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1112487877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3664994709533663777, guid: fa711159e551b984cad6f4e400da6160, type: 3}
+  m_PrefabInstance: {fileID: 1112487875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1819658266
 PrefabInstance:
   m_ObjectHideFlags: 0
