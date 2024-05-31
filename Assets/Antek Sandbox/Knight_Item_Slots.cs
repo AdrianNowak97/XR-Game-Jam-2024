@@ -14,6 +14,8 @@ public class Knight_Item_Slots : MonoBehaviour
 
     private GameObject _item;
 
+    [SerializeField] private bool isWeaponSlot;
+
     private void OnEnable()
     {
         WinningConditionEventSystem.OnKnightComeBack += BackItem;
@@ -56,10 +58,20 @@ public class Knight_Item_Slots : MonoBehaviour
         }
         else
         {
-            other.transform.SetParent(this.transform);
-            other.transform.localPosition = Vector3.zero;
-            other.transform.localRotation = Quaternion.identity;
-            _outline.OutlineMode = Outline.Mode.OutlineHidden;
+            if (isWeaponSlot == true && _item.GetComponent<ItemStats>()._itemClass != ItemStats.ItemClass.Nothing)
+            {
+                other.transform.SetParent(this.transform);
+                other.transform.localPosition = Vector3.zero;
+                other.transform.localRotation = Quaternion.identity;
+                _outline.OutlineMode = Outline.Mode.OutlineHidden;
+            }
+            else
+            {
+                other.transform.SetParent(this.transform);
+                other.transform.localPosition = Vector3.zero;
+                other.transform.localRotation = Quaternion.identity;
+                _outline.OutlineMode = Outline.Mode.OutlineHidden;
+            }
         }
     }
 
