@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="184ead0d-f4c6-4047-accb-c11b749a616e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XR-Game-Jam-2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XR-Game-Jam-2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D assets/EQ/Materials/Instrybutor-Flatkit Main Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D assets/EQ/Materials/Instrybutor-Flatkit Main Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Antek Sandbox/Knight_Item_Slots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Antek Sandbox/Knight_Item_Slots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus Hands/Materials/Hands_solid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus Hands/Materials/Hands_solid.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SandboxKokon/AfterBattleScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SandboxKokon/AfterBattleScreenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SandboxKokon/CameraFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SandboxKokon/CameraFade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <updated>1717075319521</updated>
       <workItem from="1717075326144" duration="6291000" />
       <workItem from="1717097736310" duration="1059000" />
-      <workItem from="1717138125382" duration="7744000" />
+      <workItem from="1717138125382" duration="9236000" />
     </task>
     <servers />
   </component>

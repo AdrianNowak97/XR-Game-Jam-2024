@@ -12,6 +12,12 @@ public class Knight_Item_Slots : MonoBehaviour
     private XRGrabInteractable _xRGrabInteractable;
     private Outline _outline;
 
+    //Sound Scripts
+    private bool isItemInSlot = false;
+    [SerializeField] private SoundFXManager _soundFXManager;
+    [SerializeField] private AudioClip _audioClip;
+    //End Sound Scripts
+    
     private GameObject _item;
 
     private void OnEnable()
@@ -53,6 +59,7 @@ public class Knight_Item_Slots : MonoBehaviour
         {
             other.transform.SetParent(null);
             _outline.OutlineMode = Outline.Mode.OutlineAll;
+            isItemInSlot = false;
         }
         else
         {
@@ -60,6 +67,11 @@ public class Knight_Item_Slots : MonoBehaviour
             other.transform.localPosition = Vector3.zero;
             other.transform.localRotation = Quaternion.identity;
             _outline.OutlineMode = Outline.Mode.OutlineHidden;
+            if (isItemInSlot == false)
+            {
+                _soundFXManager.SimpleFXClipPlay(_audioClip);
+                isItemInSlot = true;
+            }
         }
     }
 
