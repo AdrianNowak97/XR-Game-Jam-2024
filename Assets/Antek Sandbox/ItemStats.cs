@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
@@ -13,6 +14,11 @@ public class ItemStats : MonoBehaviour
 
     public ItemClass _itemClass;
     public Item _item;
+
+    private void OnEnable()
+    {
+        WinningConditionEventSystem.OnNewItemGet += NewItemUnlocked;
+    }
 
     private void Awake()
     {
@@ -61,5 +67,74 @@ public class ItemStats : MonoBehaviour
         monety,
         tarczaanytmagiczna
         
+    }
+
+    void NewItemUnlocked(SO_Enemy enemy)
+    {
+        switch (enemy._race)
+        {
+            case SO_Enemy.Race.Rat:
+                if (_item == Item.martwySzczur)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Kobold:
+                if (_item == Item.sztylet)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Goblin:
+                if (_item == Item.tarczMała)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Halfling:
+                if (_item == Item.puszkaPiwa || _item == Item.monety)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Human:
+                if (_item == Item.antidotum)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Orc:
+                if (_item == Item.włócznia || _item == Item.rógWojenny)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Elf:
+                if (_item == Item.świętySymbol)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Troll:
+                if (_item == Item.but)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Demon:
+                if (_item == Item.tarczaanytmagiczna)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            case SO_Enemy.Race.Roxy:
+                if (_item == Item.puchar)
+                {
+                    this.gameObject.SetActive(true);
+                }
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
     }
 }

@@ -48,7 +48,8 @@ public class Stats_Count_At_End : MonoBehaviour
                 acctualEnemy = bossEnemyList[Random.Range(0, bossEnemyList.Count)];
                 break;
         }
-
+        WinningConditionEventSystem.EnemyText(acctualEnemy.enemyInfo);
+        Debug.Log(acctualEnemy.enemyInfo);
         stage++;
     }
 
@@ -226,8 +227,9 @@ public class Stats_Count_At_End : MonoBehaviour
             pointsGained += 25;
         }
 
-        if (pointsGained > acctualEnemy.pointsNeeded)
+        if (pointsGained >= acctualEnemy.pointsNeeded)
         {
+            WinningConditionEventSystem.NewItemGet(acctualEnemy);
             if (pointsGained > 99)
             {
                 howManyStarts = 3;
@@ -247,6 +249,7 @@ public class Stats_Count_At_End : MonoBehaviour
         }
 
         WinningConditionEventSystem.KnightComeBack(howManyStarts);
+        
 
         RollRandomEnemy();
     }

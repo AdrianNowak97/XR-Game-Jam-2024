@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6614040734279226985}
   - component: {fileID: 3264717405706060160}
   - component: {fileID: 9124660248442130821}
+  - component: {fileID: 4110109444579699610}
   m_Layer: 0
   m_Name: Quiver
   m_TagString: Item
@@ -275,3 +276,24 @@ MonoBehaviour:
   withOutBonus: 0
   _itemClass: 0
   _item: 17
+--- !u!65 &4110109444579699610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985231823457847298}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.068553545, y: 0.8982953, z: 0.27666003}
+  m_Center: {x: -0.007025957, y: 0.11408208, z: -0.045052372}
