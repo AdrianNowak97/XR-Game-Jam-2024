@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Stats_Count_At_End : MonoBehaviour
@@ -20,6 +21,9 @@ public class Stats_Count_At_End : MonoBehaviour
 
     private float pointsGained;
     private ItemStats itemsStats;
+    
+    //ENEMY TEXT
+    [SerializeField] private Text enemyText;
 
     public int howManyStarts;
 
@@ -50,6 +54,7 @@ public class Stats_Count_At_End : MonoBehaviour
         }
         WinningConditionEventSystem.EnemyText(acctualEnemy.enemyInfo);
         Debug.Log(acctualEnemy.enemyInfo);
+        enemyText.text = "Current Enemy: " + acctualEnemy.enemyInfo;
         stage++;
     }
 
