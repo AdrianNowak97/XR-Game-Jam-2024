@@ -55,7 +55,6 @@ public class Settings : MonoBehaviour
         {
             _handsMaterial.color = new Color(0.84f, 0.70f,0.58f, 1);
         }
-        
     }
     
     

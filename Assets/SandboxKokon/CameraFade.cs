@@ -17,6 +17,7 @@ public class CameraFade : MonoBehaviour
     private int direction = 0;
     private float time = 0f;
 
+    [SerializeField] private AfterBattleScreenManager _afterBattleScreenManager; 
     [SerializeField] private GameObject FadeImg;
     
     //Animations
@@ -78,7 +79,7 @@ public class CameraFade : MonoBehaviour
 
     public void AnimationEnd()
     {
-        
+        _afterBattleScreenManager.SpawnScreen();
         gameObject.GetComponent<Animator>().Play("Idle Camera");
         animationStart = false;
         direction = 0;
