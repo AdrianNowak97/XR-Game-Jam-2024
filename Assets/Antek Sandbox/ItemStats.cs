@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
@@ -15,6 +16,8 @@ public class ItemStats : MonoBehaviour
     public ItemClass _itemClass;
     public Item _item;
 
+    private WaitForSeconds _wait = new WaitForSeconds(1f);
+
     private void OnEnable()
     {
         WinningConditionEventSystem.OnNewItemGet += NewItemUnlocked;
@@ -22,8 +25,22 @@ public class ItemStats : MonoBehaviour
 
     private void Awake()
     {
+        StartCoroutine(SafeCheck());
         startingPosition = transform.position;
         startRotation = transform.rotation;
+    }
+
+    private IEnumerator SafeCheck()
+    {
+        while (true)
+        {
+            yield return _wait;
+            if (transform.position.y < -1000)
+            {
+                transform.position = startingPosition;
+                transform.rotation = startRotation;
+            }
+        }
     }
 
     public enum ItemClass
