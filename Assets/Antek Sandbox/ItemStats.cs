@@ -35,7 +35,7 @@ public class ItemStats : MonoBehaviour
         while (true)
         {
             yield return _wait;
-            if (transform.position.y < -1000)
+            if (transform.position.y < -10)
             {
                 transform.position = startingPosition;
                 transform.rotation = startRotation;
