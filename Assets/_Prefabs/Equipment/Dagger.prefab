@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8594257
+      value: 0.80916536
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.182
+      value: 0.153
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6701844
+      value: -1.1891844
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14e1e62fcc42bd14480fb0fa9aa9197d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -287,6 +287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968934922dbeb3e45b5386fedcde054b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0, w: 0}
   bonusWith: 0
   withOutBonus: 0
   _itemClass: 1
