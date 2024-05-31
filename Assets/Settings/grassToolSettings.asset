@@ -24,7 +24,7 @@ MonoBehaviour:
   layerFading: 
   VertexColorSettings: 0
   VertexFade: 0
-  sizeWidth: 0.098
+  sizeWidth: 0.2
   sizeLength: 0.265
   adjustWidth: 0.092
   adjustLength: 0
@@ -44,10 +44,10 @@ MonoBehaviour:
   paintMask:
     serializedVersion: 2
     m_Bits: 55
-  brushSize: 7.5
+  brushSize: 1.4
   brushFalloffSize: 0.8
   Flow: 0.1
-  density: 1.8
+  density: 0.64
   normalLimit: 1
   grassAmountToGenerate: 20000
   generationDensity: 1
