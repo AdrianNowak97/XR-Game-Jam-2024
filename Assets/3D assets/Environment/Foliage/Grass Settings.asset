@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shaderToUse: {fileID: 7200000, guid: 89df13152903b7d4283237ab729e0cf5, type: 3}
   materialToUse: {fileID: 2100000, guid: e2bd42ee97ee5044e92bc8f521a7fb2b, type: 2}
-  grassRandomHeightMin: -0.08143772
+  grassRandomHeightMin: 0
   grassRandomHeightMax: 0.2380511
   bladeRadius: 0.26
   bladeForwardAmount: 0.5
