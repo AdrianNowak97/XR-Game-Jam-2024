@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9209086
+      value: 0.8706482
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.046844076
+      value: 0.017844077
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.17648843
+      value: -0.69548845
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fd1e108305d2b34a8f1281c659e576f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -125,7 +125,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -263,6 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968934922dbeb3e45b5386fedcde054b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0, w: 0}
   bonusWith: 0
   withOutBonus: 0
   _itemClass: 0
