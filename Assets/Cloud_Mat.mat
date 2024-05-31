@@ -91,7 +91,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cloud_Alpha: 2.54
+    - _Cloud_Alpha: 3.1
     - _Cloud_Power: 1.23
     - _Cloud_Scale: 59.16
     - _Cloud_Speed: 0.0025
