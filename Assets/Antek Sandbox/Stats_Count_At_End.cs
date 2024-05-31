@@ -14,19 +14,20 @@ public class Stats_Count_At_End : MonoBehaviour
 
     private float pointsGained;
     private ItemStats itemsStats;
-    
-    private int allMagicDMG;
-    private int allMeeleDMG;
-    private int allRangeDMG;
 
+    public int howManyStarts;
 
+    private void Awake()
+    {
+        RollRandomEnemy();
+    }
 
-    void RollRandomEnemy()
+    public void RollRandomEnemy()
     {
         acctualEnemy = enemyList[Random.Range(0, enemyList.Count)];
     }
 
-    void OnHorseSlap()
+    public void OnHorseSlap()
     {
         itemsStats = weaponSlot.GetComponentInChildren<ItemStats>();
         
@@ -199,7 +200,30 @@ public class Stats_Count_At_End : MonoBehaviour
         {
             pointsGained += 25;
         }
-        
+
+        if (pointsGained > acctualEnemy.pointsNeeded)
+        {
+            if (pointsGained > 99)
+            {
+                howManyStarts = 3;
+            }
+            else if(pointsGained > 50 && pointsGained <= 99)
+            {
+                howManyStarts = 2;
+            }
+            else
+            {
+                howManyStarts = 1;
+            }
+        }
+        else
+        {
+            howManyStarts = 0;
+        }
+
+        WinningConditionEventSystem.current.KnightComeBack(howManyStarts);
+
+        RollRandomEnemy();
     }
 
     private void ElfStatCheck()
