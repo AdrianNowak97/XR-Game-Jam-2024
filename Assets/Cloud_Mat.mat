@@ -91,7 +91,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cloud_Alpha: 1.72
+    - _Cloud_Alpha: 2.54
     - _Cloud_Power: 1.23
     - _Cloud_Scale: 59.16
     - _Cloud_Speed: 0.0025
@@ -99,7 +99,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistortScale: 60
+    - _DistortScale: 63.9
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -123,8 +123,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Cloud_Color: {r: 103.96829, g: 103.96829, b: 103.96829, a: 1}
-    - _Cloud_Speed: {r: 0.03, g: 0.005, b: 0, a: 0}
+    - _Cloud_Color: {r: 138.80582, g: 138.80582, b: 138.80582, a: 1}
+    - _Cloud_Speed: {r: 0.02, g: 0.005, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DistortSpeed: {r: 0.0015, g: 0.0005, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
