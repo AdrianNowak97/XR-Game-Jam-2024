@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -29,10 +30,18 @@ public class Knight_Item_Slots : MonoBehaviour
         if (_item) _item.transform.parent = null;
         if (_item) _item.transform.position = _item.transform.GetComponent<ItemStats>().startingPosition;
         if (_item) _item.transform.rotation = _item.transform.GetComponent<ItemStats>().startRotation;
-
+        if (_item) _item.transform.GetComponent<Rigidbody>().isKinematic = true;
         _outline = null;
         _xRGrabInteractable = null;
+        StartCoroutine(SetAsNonKinematic(_item));
         _item = null;
+    }
+
+    private IEnumerator SetAsNonKinematic(GameObject item)
+    {
+        if(item == null) yield break;
+        yield return new WaitForSeconds(0.5f);
+        item.transform.GetComponent<Rigidbody>().isKinematic = false;
     }
 
     private void OnTriggerStay(Collider other)
