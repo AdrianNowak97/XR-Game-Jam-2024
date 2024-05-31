@@ -228,6 +228,7 @@ public class Stats_Count_At_End : MonoBehaviour
 
         if (pointsGained > acctualEnemy.pointsNeeded)
         {
+            WinningConditionEventSystem.NewItemGet(acctualEnemy);
             if (pointsGained > 99)
             {
                 howManyStarts = 3;
@@ -247,6 +248,7 @@ public class Stats_Count_At_End : MonoBehaviour
         }
 
         WinningConditionEventSystem.KnightComeBack(howManyStarts);
+        
 
         RollRandomEnemy();
     }
