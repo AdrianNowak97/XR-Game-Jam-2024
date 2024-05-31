@@ -13,6 +13,28 @@ public class Knight_Item_Slots : MonoBehaviour
 
     private GameObject _item;
 
+    private void OnEnable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack += BackItem;
+    }
+
+    private void OnDisable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack -= BackItem;
+    }
+
+    private void BackItem(int stars)
+    {
+        if (_outline)_outline.OutlineMode = Outline.Mode.OutlineHidden;
+        if (_item) _item.transform.parent = null;
+        if (_item) _item.transform.position = _item.transform.GetComponent<ItemStats>().startingPosition;
+        if (_item) _item.transform.rotation = _item.transform.GetComponent<ItemStats>().startRotation;
+
+        _outline = null;
+        _xRGrabInteractable = null;
+        _item = null;
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.tag != "Item") return;

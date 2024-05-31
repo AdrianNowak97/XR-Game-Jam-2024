@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c28c2a33e81e3ac419e7d4fcc6d99875
+=======
+guid: 675250e87a9daf54ea8c5a1b65de4731
+>>>>>>> Coco/FadeOnHorse
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
