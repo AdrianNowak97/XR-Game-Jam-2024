@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraFade : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class CameraFade : MonoBehaviour
     private Texture2D texture;
     private int direction = 0;
     private float time = 0f;
+
+    [SerializeField] private GameObject FadeImg;
     
     //Animations
     private bool animationStart = false;
@@ -25,6 +28,8 @@ public class CameraFade : MonoBehaviour
         texture = new Texture2D(1, 1);
         texture.SetPixel(0, 0, new Color(fadeColor.r, fadeColor.g, fadeColor.b, alpha));
         texture.Apply();
+        FadeImg.GetComponent<RawImage>().texture = texture;
+        FadeImg.GetComponent<RawImage>().color = new Color(1, 1, 1, 1);
     }
 
     private void Update()
