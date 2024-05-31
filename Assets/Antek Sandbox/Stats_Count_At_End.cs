@@ -9,8 +9,14 @@ public class Stats_Count_At_End : MonoBehaviour
     [SerializeField] private List<GameObject> inventorySlots = new List<GameObject>();
     [SerializeField] private GameObject weaponSlot;
     private List<ItemStats.Item> itemsList = new List<ItemStats.Item>();
-    [SerializeField] private List<SO_Enemy> enemyList = new List<SO_Enemy>();
+    [SerializeField] private List<SO_Enemy> firstEnemyList = new List<SO_Enemy>();
+    [SerializeField] private List<SO_Enemy> secondEnemyList = new List<SO_Enemy>();
+    [SerializeField] private List<SO_Enemy> thirdEnemyList = new List<SO_Enemy>();
+    [SerializeField] private List<SO_Enemy> forthEnemyList = new List<SO_Enemy>();
+    [SerializeField] private List<SO_Enemy> bossEnemyList = new List<SO_Enemy>();
     private SO_Enemy acctualEnemy;
+
+    private int stage;
 
     private float pointsGained;
     private ItemStats itemsStats;
@@ -24,7 +30,26 @@ public class Stats_Count_At_End : MonoBehaviour
 
     public void RollRandomEnemy()
     {
-        acctualEnemy = enemyList[Random.Range(0, enemyList.Count)];
+        switch (stage)
+        {
+            case < 3:
+                acctualEnemy = firstEnemyList[Random.Range(0, firstEnemyList.Count)];
+                break;
+            case >=3 and <6:
+                acctualEnemy = secondEnemyList[Random.Range(0, secondEnemyList.Count)];
+                break;
+            case >=6 and <9:
+                acctualEnemy = thirdEnemyList[Random.Range(0, thirdEnemyList.Count)];
+                break;
+            case >=9 and <12:
+                acctualEnemy = forthEnemyList[Random.Range(0, forthEnemyList.Count)];
+                break;
+            case > 12:
+                acctualEnemy = bossEnemyList[Random.Range(0, bossEnemyList.Count)];
+                break;
+        }
+
+        stage++;
     }
 
     public void OnHorseSlap()

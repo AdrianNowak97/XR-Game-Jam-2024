@@ -49,24 +49,33 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   weaponSlot: {fileID: 0}
-  enemyList:
-  - {fileID: 11400000, guid: 3ced82bd206088a4a938c07221242965, type: 2}
+  firstEnemyList:
   - {fileID: 11400000, guid: e31ec0edcbcf9ab429aae5c3facdf42c, type: 2}
+  - {fileID: 11400000, guid: 3ced82bd206088a4a938c07221242965, type: 2}
   - {fileID: 11400000, guid: 28430fe275c90b74a8d2c12f10e63a59, type: 2}
+  - {fileID: 11400000, guid: d8071a5bbfff9584d850dbef5fe6a623, type: 2}
+  - {fileID: 11400000, guid: 8c59a1f25e17804439fccd7965f994be, type: 2}
+  - {fileID: 11400000, guid: da7553bfc14c1a948ab1c000ded937de, type: 2}
+  secondEnemyList:
   - {fileID: 11400000, guid: d8071a5bbfff9584d850dbef5fe6a623, type: 2}
   - {fileID: 11400000, guid: 8c59a1f25e17804439fccd7965f994be, type: 2}
   - {fileID: 11400000, guid: da7553bfc14c1a948ab1c000ded937de, type: 2}
   - {fileID: 11400000, guid: bb4a973c8444d2949af019c3d03034fc, type: 2}
   - {fileID: 11400000, guid: 08125d7f238e8b44fb2c299b8807429e, type: 2}
   - {fileID: 11400000, guid: 2f82a723032bb6b408db6aabaeae0ed3, type: 2}
-  - {fileID: 11400000, guid: b1804d1660d791341a84cf668234ef2f, type: 2}
   - {fileID: 11400000, guid: 874e30e8ab82fa5438df54b566c3a36e, type: 2}
+  - {fileID: 11400000, guid: b1804d1660d791341a84cf668234ef2f, type: 2}
+  thirdEnemyList:
   - {fileID: 11400000, guid: 62a1e46a171f3604ebd196e17bbd9479, type: 2}
-  - {fileID: 11400000, guid: 05ada36f3063618498443daa5d41174a, type: 2}
   - {fileID: 11400000, guid: cbdc67a3e347cad44bff6fa1128b578d, type: 2}
+  - {fileID: 11400000, guid: 05ada36f3063618498443daa5d41174a, type: 2}
+  - {fileID: 11400000, guid: 43e52e1a1ff75a846b27a888dc6e9d78, type: 2}
+  forthEnemyList:
   - {fileID: 11400000, guid: 43e52e1a1ff75a846b27a888dc6e9d78, type: 2}
   - {fileID: 11400000, guid: 1bf1fa74e920e024bb406d716860ac10, type: 2}
   - {fileID: 11400000, guid: 96163bb8b3e9e74438481826525b8abc, type: 2}
-  - {fileID: 11400000, guid: 9d3706b1943b962428d17c8e4538b07a, type: 2}
+  bossEnemyList:
   - {fileID: 11400000, guid: fa8221359e8f17340ad2a2df6b0251b2, type: 2}
   - {fileID: 11400000, guid: c3dca3d0d8a0e6844b57786b436bc441, type: 2}
+  - {fileID: 11400000, guid: 9d3706b1943b962428d17c8e4538b07a, type: 2}
+  howManyStarts: 0
