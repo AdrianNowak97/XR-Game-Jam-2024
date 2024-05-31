@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bba5dcf50cd9da4e9760b65656408b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: a1535f85087b814409db3cc40b92e929, type: 2}
+  _material: {fileID: 2100000, guid: 776c09e8829a8a54cb3277ffa702cfb8, type: 2}
   _soundFXManager: {fileID: 0}
   _audioClip: {fileID: 8300000, guid: b4900d72ab544944483d37c72b6083f3, type: 3}
   isWeaponSlot: 0
@@ -5215,7 +5215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bba5dcf50cd9da4e9760b65656408b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: a1535f85087b814409db3cc40b92e929, type: 2}
+  _material: {fileID: 2100000, guid: 776c09e8829a8a54cb3277ffa702cfb8, type: 2}
   _soundFXManager: {fileID: 0}
   _audioClip: {fileID: 8300000, guid: b4900d72ab544944483d37c72b6083f3, type: 3}
   isWeaponSlot: 0
@@ -5387,7 +5387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bba5dcf50cd9da4e9760b65656408b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: a1535f85087b814409db3cc40b92e929, type: 2}
+  _material: {fileID: 2100000, guid: 776c09e8829a8a54cb3277ffa702cfb8, type: 2}
   _soundFXManager: {fileID: 0}
   _audioClip: {fileID: 8300000, guid: b4900d72ab544944483d37c72b6083f3, type: 3}
   isWeaponSlot: 0
