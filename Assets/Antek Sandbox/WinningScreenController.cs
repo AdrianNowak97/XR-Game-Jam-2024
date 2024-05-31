@@ -5,9 +5,14 @@ public class WinningScreenController : MonoBehaviour
 {
     [SerializeField] private List<GameObject> medals = new List<GameObject>();
     
-    void Start()
+    void OnEnable()
     {
-        WinningConditionEventSystem.current.OnKnightComeBack += OnKnightComeBack;
+        WinningConditionEventSystem.OnKnightComeBack += OnKnightComeBack;
+    }
+
+    void OnDisable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack -= OnKnightComeBack;
     }
     
 

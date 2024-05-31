@@ -4,9 +4,14 @@ public class ItemSpawnPoint : MonoBehaviour
 {
     [SerializeField] private GameObject objectToSpawn;
    
-    void Start()
+    void OnEnable()
     {
-        WinningConditionEventSystem.current.OnKnightComeBack += OnKnightBack;
+        WinningConditionEventSystem.OnKnightComeBack += OnKnightBack;
+    }
+
+    void OnDisable()
+    {
+        WinningConditionEventSystem.OnKnightComeBack -= OnKnightBack;
     }
     
     void OnKnightBack(int i)

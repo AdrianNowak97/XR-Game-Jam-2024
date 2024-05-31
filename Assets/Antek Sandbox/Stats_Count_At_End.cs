@@ -221,7 +221,7 @@ public class Stats_Count_At_End : MonoBehaviour
             howManyStarts = 0;
         }
 
-        WinningConditionEventSystem.current.KnightComeBack(howManyStarts);
+        WinningConditionEventSystem.KnightComeBack(howManyStarts);
 
         RollRandomEnemy();
     }
