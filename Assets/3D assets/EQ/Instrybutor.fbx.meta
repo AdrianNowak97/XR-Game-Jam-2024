@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7d262e2b7fa98c644baaebb310ddcd53
+=======
+guid: 805c80e33b00d0d449949239574e4757
+>>>>>>> origin/Coco/Fade
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
