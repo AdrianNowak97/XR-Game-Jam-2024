@@ -49,6 +49,7 @@ public class Stats_Count_At_End : MonoBehaviour
                 break;
         }
         WinningConditionEventSystem.EnemyText(acctualEnemy.enemyInfo);
+        Debug.Log(acctualEnemy.enemyInfo);
         stage++;
     }
 
@@ -226,7 +227,7 @@ public class Stats_Count_At_End : MonoBehaviour
             pointsGained += 25;
         }
 
-        if (pointsGained > acctualEnemy.pointsNeeded)
+        if (pointsGained >= acctualEnemy.pointsNeeded)
         {
             WinningConditionEventSystem.NewItemGet(acctualEnemy);
             if (pointsGained > 99)
