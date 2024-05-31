@@ -47,11 +47,6 @@ public class CameraFade : MonoBehaviour
 
             animationStart = false;
         }
-
-        if (Input.GetKeyDown(key))
-        {
-            AnimatorChangeAnimation();
-        }
     }
     public void OnGUI()
     {

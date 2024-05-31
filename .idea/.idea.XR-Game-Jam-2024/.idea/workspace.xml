@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184ead0d-f4c6-4047-accb-c11b749a616e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XR-Game-Jam-2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XR-Game-Jam-2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MainScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="184ead0d-f4c6-4047-accb-c11b749a616e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <updated>1717075319521</updated>
       <workItem from="1717075326144" duration="6291000" />
       <workItem from="1717097736310" duration="1059000" />
-      <workItem from="1717138125382" duration="2784000" />
+      <workItem from="1717138125382" duration="3292000" />
     </task>
     <servers />
   </component>
