@@ -1,7 +1,11 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
+[RequireComponent(typeof(Outline))]
+[RequireComponent(typeof(XRGrabInteractable))]
 public class ItemStats : MonoBehaviour
 {
+    
     public int bonusWith;
     public int withOutBonus;
 
