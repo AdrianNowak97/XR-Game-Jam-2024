@@ -18,6 +18,8 @@ public class ItemStats : MonoBehaviour
 
     private WaitForSeconds _wait = new WaitForSeconds(1f);
 
+    private MeshRenderer _meshRenderer;
+
     private void OnEnable()
     {
         WinningConditionEventSystem.OnNewItemGet += NewItemUnlocked;
@@ -25,6 +27,7 @@ public class ItemStats : MonoBehaviour
 
     private void Awake()
     {
+        _meshRenderer = GetComponent<MeshRenderer>();
         StartCoroutine(SafeCheck());
         startingPosition = transform.position;
         startRotation = transform.rotation;
