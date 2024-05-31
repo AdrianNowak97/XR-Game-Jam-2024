@@ -86,4 +86,9 @@ public class CameraFade : MonoBehaviour
         animationStart = false;
         direction = 0;
     }
+
+    public void ReturnItems()
+    {
+        WinningConditionEventSystem.KnightComeBack(0);
+    }
 }
