@@ -59,7 +59,10 @@ public class Stats_Count_At_End : MonoBehaviour
         
         for (int i = 0; i < inventorySlots.Count -1; i++)
         {
-            itemsList.Add(inventorySlots[i].GetComponentInChildren<ItemStats>()._item);
+            if (inventorySlots[i] != null)
+            {
+                itemsList.Add(inventorySlots[i].GetComponentInChildren<ItemStats>()._item);
+            }
         }
 
         switch (acctualEnemy._class)
@@ -358,7 +361,7 @@ public class Stats_Count_At_End : MonoBehaviour
     {
         if (itemsList.Contains(ItemStats.Item.młot))
         {
-            pointsGained += 100;
+            pointsGained += 200;
         }
     }
 }
